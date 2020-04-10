@@ -171,6 +171,7 @@ class Solution{
 ## 解决其他类似问题
 + 
 ![下降路径最小和II](https://pic.downk.cc/item/5e90332f504f4bcb047e8bf3.png)
+
 [下降路径最小和II](https://leetcode-cn.com/problems/minimum-falling-path-sum-ii/)
 这道题的框架跟上面差不多，只不过细节问题有点不一样。
 根据题意，按顺序选出来的数字中，相邻数字不在原数组同一列。**意思就是，如果选了A[i][j]，那么就不能选A[i+1][j]**。
@@ -221,6 +222,7 @@ class Solution{
 
 +  
 ![三角形最小路径和](https://pic.downk.cc/item/5e90629f504f4bcb04a6290a.png)
+
 [三角形最小路径和](https://leetcode-cn.com/problems/triangle/)
 框架相同，也是细节问题要处理好：
 ```c
@@ -261,6 +263,7 @@ public:
 
 +
 ![最小路径和](https://pic.downk.cc/item/5e9066b2504f4bcb04a9f8fe.png)
+
 [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)
 这道题中，起点和终点已经确定，而题目要求只能向下和向右，那么第一行和第一列的元素就需要单独处理。
 即：
